@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basics/ByteShortInt/ByteShortInt.iml" filepath="$PROJECT_DIR$/Basics/ByteShortInt/ByteShortInt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/CharAndboolean/CharAndboolean.iml" filepath="$PROJECT_DIR$/Basics/CharAndboolean/CharAndboolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/FloatDouble/FloatDouble.iml" filepath="$PROJECT_DIR$/Basics/FloatDouble/FloatDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Basics/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaBrushUp.iml" filepath="$PROJECT_DIR$/.idea/JavaBrushUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/MethodOverloading/MethodOverloading.iml" filepath="$PROJECT_DIR$/Basics/MethodOverloading/MethodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Methods/Methods.iml" filepath="$PROJECT_DIR$/Basics/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniExercises/MiniExercises.iml" filepath="$PROJECT_DIR$/MiniExercises/MiniExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Operators/Operators.iml" filepath="$PROJECT_DIR$/Basics/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Operators/Scanner.iml" filepath="$PROJECT_DIR$/Basics/Operators/Scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Strings/Strings.iml" filepath="$PROJECT_DIR$/Basics/Strings/Strings.iml" />
+    </modules>
+  </component>
+</project>
