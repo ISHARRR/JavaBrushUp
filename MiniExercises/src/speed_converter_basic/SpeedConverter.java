@@ -1,3 +1,5 @@
+package speed_converter_basic;
+
 public class SpeedConverter {
     public static void main(String[] args) {
 

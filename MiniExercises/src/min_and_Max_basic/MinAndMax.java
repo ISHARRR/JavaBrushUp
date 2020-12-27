@@ -1,3 +1,5 @@
+package min_and_Max_basic;
+
 import java.util.Scanner;
 
 public class MinAndMax {

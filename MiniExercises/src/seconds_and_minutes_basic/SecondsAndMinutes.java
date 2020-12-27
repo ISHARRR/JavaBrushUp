@@ -1,3 +1,5 @@
+package seconds_and_minutes_basic;
+
 public class SecondsAndMinutes {
     public static void main(String[] args) {
         System.out.println(getDurationString(23455));
