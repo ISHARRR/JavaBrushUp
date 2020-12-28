@@ -1,4 +1,4 @@
-package author_book_comosition;
+package author_book_composition;
 
 public class Book {
     private String name;

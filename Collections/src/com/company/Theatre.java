@@ -1,16 +1,14 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Theatre {
     private final String theatreName;
-    private List<Theatre.Seat> seats = new ArrayList();
+    private final Collection<Seat> seats = new LinkedList<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
-        int lastRow = 65 + (numRows - 1);
+        int lastRow = 'A' + (numRows - 1);
 
         for(char row = 'A'; row <= lastRow; ++row) {
             for(int seatNum = 1; seatNum <= seatsPerRow; ++seatNum) {
@@ -27,10 +25,8 @@ public class Theatre {
 
     public boolean reserveSeat(String seatNumber) {
         Theatre.Seat requestedSeat = null;
-        Iterator var3 = this.seats.iterator();
 
-        while(var3.hasNext()) {
-            Theatre.Seat seat = (Theatre.Seat)var3.next();
+        for (Seat seat : this.seats) {
             if (seat.getSeatNumber().equals(seatNumber)) {
                 requestedSeat = seat;
                 break;

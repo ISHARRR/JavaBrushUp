@@ -1,4 +1,4 @@
-package author_book_comosition;
+package author_book_composition;
 
 /*
  * EXERCISE 1.11 Book and Author Classes Again - An Array of Objects as an Instance Variable
