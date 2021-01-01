@@ -1,6 +1,6 @@
 # JavaBrushUp
 
-Brushing up on my java skills 
+Brushing up on my java skills
 
 Completing a complete java course, covering;
 
@@ -16,9 +16,9 @@ Completing a complete java course, covering;
 - Java FX
 - Basic input and output including Java.util
 - Concurrency in Java
-- Lambda Expressions 
-- Regular Expressions 
-- Debugging and unit testing
+- Lambda Expressions
+- Regular Expressions
+- Debugging and unit testing ✅
 - Databases
-- Java networking programming 
-- Java 9 module system 
+- Java networking programming
+- Java 9 module system
