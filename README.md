@@ -19,6 +19,6 @@ Completing a complete java course, covering;
 - Lambda Expressions
 - Regular Expressions
 - Debugging and unit testing ✅
-- Databases
+- Databases ⬅️
 - Java networking programming
 - Java 9 module system
