@@ -1,0 +1,70 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<!--<GridPane fx:controller="HelloWorld.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml" alignment="top_center" hgap="10" vgap="10" gridLinesVisible="true">-->
+<!--    <padding>-->
+<!--        <Insets top="10"/>-->
+<!--    </padding>-->
+<!--&lt;!&ndash;    <columnConstraints>&ndash;&gt;-->
+<!--&lt;!&ndash;        <ColumnConstraints percentWidth="50.0"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <ColumnConstraints percentWidth="50.0"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    </columnConstraints>&ndash;&gt;-->
+<!--    <Button text="Button 1" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="RIGHT"/>-->
+<!--    <Button text="Button 2" GridPane.rowIndex="0" GridPane.columnIndex="1" />-->
+<!--    <Button text="Button 3" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+<!--    <Button text="Buttonnnnnnnnnn 4" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="2"/>-->
+<!--    <Button text="Button 5" GridPane.rowIndex="2" GridPane.columnIndex="0"/>-->
+<!--</GridPane>-->
+
+                                         <!--HBOX VERSIONS-->
+
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<HBox fx:controller="HelloWorld.Controller" xmlns:fx="http://javafx.com/fxml" alignment="bottom_right"-->
+<!--      spacing="10"-->
+<!--      style="-fx-border-colour: red; -fx-Border-width: 3; -fx-border-style: dashed">-->
+<!--    <padding>-->
+<!--        <Insets bottom="10" right="10"/>-->
+<!--    </padding>-->
+<!--    <Button text="Okay" prefWidth="90"/>-->
+<!--    <Button text="Cancel" prefWidth="90"/>-->
+<!--    <Button text="Help" prefWidth="90"/>-->
+<!--</HBox>-->
+                                         <!--BorderPane VERSIONS-->
+
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:controller="HelloWorld.Controller" xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <Label text="label is on the top" BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <Label text="label is on the center and is really loooooooooooooongggg" BorderPane.alignment="CENTER"/>
+    </center>
+
+    <left>
+        <Label text="label is on the left" BorderPane.alignment="CENTER"/>
+    </left>
+
+    <right>
+        <Label text="label is on the right" BorderPane.alignment="center"/>
+    </right>
+
+    <bottom>
+        <HBox spacing="10" alignment="top_right">
+            <padding>
+                <Insets bottom="10" right="10"/>
+            </padding>
+
+            <Button text="Okay" prefWidth="90"/>
+            <Button text="Cancel" prefWidth="90"/>
+            <Button text="Help" prefWidth="90"/>
+        </HBox>
+    </bottom>
+</BorderPane>

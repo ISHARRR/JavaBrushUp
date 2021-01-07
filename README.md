@@ -4,6 +4,7 @@ Brushing up on my java skills
 
 Completing a complete java course, covering;
 
+Core
 - Variables, data types, operators ✅
 - Expressions, Statements, code blocks, methods ✅
 - Control flow statements ✅
@@ -13,12 +14,14 @@ Completing a complete java course, covering;
 - Java generics ✅
 - Naming conventions and packages, static and final keywords ✅
 - Java collections ✅
-- Java FX
+- Debugging and unit testing ✅
+- Java FX ⬅️
 - Basic input and output including Java.util
+
+Additional
+- Databases 
 - Concurrency in Java
 - Lambda Expressions
 - Regular Expressions
-- Debugging and unit testing ✅
-- Databases ⬅️
 - Java networking programming
 - Java 9 module system
